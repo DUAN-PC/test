@@ -18,7 +18,7 @@ int zhuanhuan() {
 	cout << b << endl;
 	double c = (double)a + 1.5;
 	cout << c <<endl;
-	return 0+2;
+	return 0+2+3+9;
 }
 int main()
 {
