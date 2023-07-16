@@ -8,4 +8,3 @@ git remote remove orign
 git remote add orgin
 git pull --rebase origin master
 git push -u origin master
-%0
