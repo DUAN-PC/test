@@ -1,3 +1,4 @@
+git init
 git add .
 git pull --rebase origin master
 git remote add origin https://github.com/DUAN-PC/test.git
