@@ -2,9 +2,10 @@
 //
 
 #include <iostream>
+#include <locale.h>
+
 #define PI 3.14159;
 #define S(a,b) a*b
-
 
 using namespace std;
 #ifndef DEBUG
@@ -20,8 +21,28 @@ int zhuanhuan() {
 	cout << c <<endl;
 	return 0+2+3+9;
 }
+int str(){
+	char ch = 'a';
+	cout << ch<<endl;
+	string a = "aaa";
+	string b = "bbb";
+	string c = a;
+	a = b;
+	b = c;
+	cout << a << b << endl;
+	a = "ccc";
+	b = "ddd";
+	a.swap(b);
+	cout << a << b << endl;
+	setlocale(LC_ALL, "chs");
+	string aa = "五十六个人，五十六枝花，五十六个兄弟姐妹是一家";
+	aa.insert(1, "jntm");
+	cout << aa;
+	return 0;
+}
 int main()
 {
+	system("chcp 936");
 	cout << j << endl;
 	cout << "Hello World!\n";
 	int m;
@@ -64,7 +85,8 @@ int main()
 		total = total + num;	
 	}
 	cout << total <<"有"<<total1<<"个正整数" << "有" << total2 << "个不是正整数" <<"1个0" << endl;
-	cout << zhuanhuan();
+	cout << zhuanhuan()<<endl;
+	str();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
