@@ -1,3 +1,5 @@
 ﻿  VSCODE.cpp
-H:\vc++_pack\DUAN\a\VSCODE\VSCODE.cpp(38,13): warning C4566: 由通用字符名称“\u4B15”表示的字符不能在当前代码页(936)中表示出来
+H:\vc++_pack\DUAN\a\VSCODE\VSCODE.cpp(37,13): warning C4566: 由通用字符名称“\u4B15”表示的字符不能在当前代码页(936)中表示出来
+H:\vc++_pack\DUAN\a\VSCODE\VSCODE.cpp(111,7): warning C4805: “&=”: 在操作中将类型“bool”与类型“int”混合不安全
+H:\vc++_pack\DUAN\a\VSCODE\VSCODE.cpp(111,7): warning C4805: “&”: 在操作中将类型“bool”与类型“int”混合不安全
   VSCODE.vcxproj -> H:\vc++_pack\DUAN\a\VSCODE\x64\Debug\VSCODE.exe
